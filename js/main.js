@@ -30,3 +30,9 @@ const team = [
     image: "barbara-ramos-graphic-designer.jpg",
   },
 ];
+console.log(team[0].name, team[0].role, team[0].image);
+console.log(team[1].name, team[1].role, team[1].image);
+console.log(team[2].name, team[2].role, team[2].image);
+console.log(team[3].name, team[3].role, team[3].image);
+console.log(team[4].name, team[4].role, team[4].image);
+console.log(team[5].name, team[5].role, team[5].image);
