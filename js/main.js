@@ -31,12 +31,10 @@ const team = [
   },
 ];
 
-// console.log(team[0].name, team[0].role, team[0].image);
-// console.log(team[1].name, team[1].role, team[1].image);
-// console.log(team[2].name, team[2].role, team[2].image);
-// console.log(team[3].name, team[3].role, team[3].image);
-// console.log(team[4].name, team[4].role, team[4].image);
-// console.log(team[5].name, team[5].role, team[5].image);
+// // stampo in console i dati che mi servono di tutti gli oggetti dell'atrray
+// for (let employy of team) {
+//   console.log(employy.name, employy.role, employy.image);
+// }
 
 // recupero l'elemento html che mi serve
 const cardContainer = document.getElementById("card-container");
@@ -54,9 +52,6 @@ function generateCard(elementNumber) {
 
 // invocando la funzione creata, stampo sul DOM le informazioni di nome, ruolo e la stringa della foto
 
-generateCard(0);
-generateCard(1);
-generateCard(2);
-generateCard(3);
-generateCard(4);
-generateCard(5);
+for (let i = 0; i < team.length; i++) {
+  generateCard(i);
+}
